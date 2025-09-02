@@ -81,3 +81,39 @@ img {
   border-radius: 8px;
   border: none;
 }
+
+/*  */
+.info {
+  text-align: center;
+  padding: 50px;
+}
+
+.info-img {
+  width: 130px;
+  height: 130px;
+  border: 2px solid #3882F6;
+  border-radius: 8px;
+}
+
+.info-title {
+  font-size: 36px;
+  font-weight: 900;
+  margin-bottom: 32px;
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 900;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.info-block {
+  max-width: 150px;
+}
+
+.text {
+  color: #6b6c6d;
+}
