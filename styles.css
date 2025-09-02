@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-right: 100px;
+  padding-left: 0;
+  background-color: #1f2937;
+  display: flex;
+}
+
+ul li a {
+  display: block;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.logo a {
+  color: #F9FAF8;
+}
+
+.header-link a {
+  color: #E5E7EB;
+}
+
+ul li a:hover {
+  background-color: #111111;
+}
+
+.logo {
+  margin-right: auto;
+  margin-left: 100px;
+  font-weight: 900;
+  font-size: 24px;
+}
+
+.header-link {
+  font-size: 18px;
+}
