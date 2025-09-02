@@ -4,12 +4,15 @@ body {
   font-family: Roboto;
 }
 
+.nav-hero-section {
+  background-color: #1f2937;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
   padding-right: 100px;
   padding-left: 0;
-  background-color: #1f2937;
   display: flex;
 }
 
@@ -40,4 +43,41 @@ ul li a:hover {
 
 .header-link {
   font-size: 18px;
+}
+
+img {
+  width: 400px;
+}
+
+.hero {
+  display: flex;
+  padding: 100px;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 480px;
+}
+
+.hero-main {
+  font-size: 48px;
+  color: #F9FAF8;
+  font-weight: 900;
+  margin: 0;
+}
+
+.hero-content {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.signup-button {
+  background-color: #3882F6;
+  color: white;
+  width: 100px;
+  height: 30px;
+  border-radius: 8px;
+  border: none;
 }
